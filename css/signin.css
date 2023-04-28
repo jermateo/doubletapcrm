@@ -1,0 +1,6 @@
+
+.hero-image{ 
+    clip-path: ellipse(81% 100% at 18% 0%);
+    background-image: url(https://picsum.photos/500);
+    height: 100vh; 
+}
