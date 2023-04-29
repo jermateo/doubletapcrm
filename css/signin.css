@@ -13,6 +13,49 @@
 
 
 
+.facebook {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid grey;
+  }
+  
+  .facebook svg {
+    vertical-align: middle;
+  }
+  
+.twitter {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid grey;
+  }
+  
+  .twitter svg {
+    vertical-align: middle;
+  }
+  
+.google {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid grey;
+  }
+  
+  .google svg {
+    vertical-align: middle;
+  }
+  
+  
+ 
+
+
+
+
+
 
 
 .linkedin {
@@ -20,7 +63,7 @@
     display: inline-block;
     padding: 5px;
     border-radius: 50%;
-    border: 1px solid #ccc;
+    border: 1px solid grey;
   }
   
   .linkedin svg {
