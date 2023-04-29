@@ -1,0 +1,12 @@
+.card {
+    border-radius: 25px;
+}
+
+.card-body {
+    border-radius: 0px 25px 25px 0px;
+    height: 100%;
+}
+
+.cardguy {
+    position: center;
+}
