@@ -1,7 +1,11 @@
 
 .hero-image{ 
     clip-path: ellipse(81% 100% at 18% 0%);
-    background-image: url(https://picsum.photos/500);
+    background-color: blue;
+    background-image: url(../css/images/Group\ 15.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 10% 80%;
     height: 100vh; 
 }
 
@@ -48,15 +52,6 @@
   .google svg {
     vertical-align: middle;
   }
-  
-  
- 
-
-
-
-
-
-
 
 .linkedin {
     position: relative;
@@ -64,11 +59,34 @@
     padding: 5px;
     border-radius: 50%;
     border: 1px solid grey;
-  }
+}
   
-  .linkedin svg {
+.linkedin svg {
     vertical-align: middle;
-  }
+}
   
+.input-icons i {
+    position: absolute;
+}
   
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+  
+.input-group-prepend {
+  background-color: white;
+  border: none;
+}
  
