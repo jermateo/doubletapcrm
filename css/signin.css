@@ -5,13 +5,13 @@
     height: 100vh; 
 }
 
-
-
-
-
-
-
-
+.signupimg {
+  background-image: url(../css/images/Group\ 10.png);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  height: 90vh;
+}
 
 .facebook {
     position: relative;
