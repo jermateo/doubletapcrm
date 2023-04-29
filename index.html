@@ -10,64 +10,81 @@
 </head>
 <body>
     <div class="container">
-        <div class="navbar">
+        <nav class="navbar navbar-expand mx-auto justify-content-between">
             <div class="nav-brand"></div>
-            <ul>
-                <li>Home</li>
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>How it Works</li>
-                <li>Support</li>
-            </ul>
-            <button>Sign In</button>
-            <button>Try It Free</button>
-        </div>
+            <div class="nav-item h6">Home</div>
+            <div class="nav-item h6">Features</div>
+            <div class="nav-item h6">Pricing</div>
+            <div class="nav-item h6">How it Works</div>
+            <div class="nav-item h6">Support</div>
+            <div>
+                <button class="btn btn-outline-primary btn-rounded">Sign In</button>
+                <button class="btn btn-primary btn-rounded">Try It Free</button>
+            </div>
+        </nav>
         <div class="row">
             <div class="col-7">
-                <h1>Focus on Your Business</h1>
-                <h3>Let Us Handle Everything Else</h3>
-                <p>Subscription Billing, powered with revenue retention tools and a seamless customer experience - without the technical hurdles.</p>
-                <div class="row">
-                    <button class="btn">Sign Up Free</button>
-                    <button class="btn">Chat With Us</button>
+                <h1 class="display-2"><strong>Focus on <br> Your Business</strong></h1>
+                <h3 class="font-weight-lighter">Let Us Handle Everything Else</h3>
+                <p class="font-weight-lighter">Subscription Billing, powered with revenue retention tools and a seamless customer experience - without the technical hurdles.</p>
+                <div class="row mb-3">
+                    <div class="col">
+                        <button class="btn btn-primary btn-lg w-100"><strong>Sign Up Free</strong></button>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-outline-primary btn-lg w-100"><strong>Chat With Us</strong></button>
+                    </div>
                 </div>
                 <h6>Already using <strong>Double</strong>Tap? <strong>Sign In</strong></h6>
-                <p>Free 14-day Trial <figure></figure> Manage Customers in Minutes <figure></figure> Cancel at Anytime</p>
+                <div class="row">
+                    <div class="col-4">Free 14-day Trial</div>
+                    <div class="col-4">Manage Customers in Minutes</div>
+                    <div class="col-4">Cancel at Anytime</div>
+                </div>
             </div>
             <div class="col-5"></div>
         </div>
         <div class="row">
-            <div class="row">
+            <div class="col-7 mx-auto">
+            <div class="row text-center border-top">
                 <h3>Start to Explore Double Tap</h3>
                 <p>A new and better way for small businesses to manage their customer base, payments and keep track of internal tasks.</p>
             </div>
-            <ul>
-                <li><figure></figure></li>
-                <li><figure></figure></li>
-                <li><figure></figure></li>
-                <li><figure></figure></li>
-            </ul>
-            <div class="card mb-3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-2"><img src="https://picsum.photos/100?random-5" alt="" class="rounded"></div>
+            <div class="col-2"><img src="https://picsum.photos/100?random-6" alt="" class="rounded"></div>
+            <div class="col-2"><img src="https://picsum.photos/100?random-7" alt="" class="rounded"></div>
+            <div class="col-2"><img src="https://picsum.photos/100?random-8" alt="" class="rounded"></div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-9">
+            <div class="card">
                 <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="./css/images/credit-card-picture.png" class="img-fluid rounded-start" alt="...">
+                  <div class="col my-auto">
+                    <img src="./css/images/credit-card-picture.png" class="img-fluid" alt="...">
                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Start accepting payments with Ease</h5>
-                      <p class="card-text">Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you for your products and services.</p>
-                      <ul class="card-text">
+                  <div class="col-8">
+                    <div class="card-body bg-primary">
+                      <h5 class="card-title text-white">Start accepting payments with Ease</h5>
+                      <p class="card-text text-white">Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you for your products and services.</p>
+                      <ul class="card-text text-white">
                         <li><small>Accept credit and debit cards, Paypal, ACH, Apple pay and more with the flick of a switch</small></li>
                         <li><small>Process transactions in up to 32 different currencies</small></li>
                         <li><small>Integrate with popular payment gateways like Stripe and Braintree</small></li>
                         <li><small>Select from a variety of different checkout options and experiences</small></li>
                       </ul>
-                      <button>Learn More</button>
+                      <button class="btn btn-outline-light">Learn More</button>
                     </div>
                   </div>
                 </div>
-              </div>
-            <div class="row">Solutions to fit your Business Needs</div>
+            </div>
+            </div>
+                <div class="text-center">Solutions to fit your Business Needs</div>
+            </div>
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-3">
@@ -75,13 +92,13 @@
                         <img src="https://picsum.photos/100?random-1" alt="">
                         <h3>Email Dashboards</h3>
                         <p>Automate client responses, and keep track of any communication your team has with the client</p>
-                        <button>Learn More</button>
+                        <button class="btn btn-outline-dark"><strong>Learn More ></strong></button>
                     </figure>
                     <figure>
                         <img src="https://picsum.photos/100?random-2" alt="">
                         <h3>Task Management</h3>
                         <p>Automate client responses, and keep track of any communication your team has with the client</p>
-                        <button>Learn More</button>
+                        <button class="btn btn-outline-dark"><strong>Learn More ></strong> </button>
                     </figure>
                 </div>
                 <div class="col-3">
@@ -89,34 +106,45 @@
                         <img src="https://picsum.photos/100?random-3" alt="">
                         <h3>Analytics</h3>
                         <p>Automate client responses, and keep track of any communication your team has with the client</p>
-                        <button>Learn More</button>
+                        <button class="btn btn-outline-dark"><strong>Learn More ></strong></button>
                     </figure>
                     <figure>
                         <img src="https://picsum.photos/100?random-4" alt="">
                         <h3>Project Calendars</h3>
                         <p>Automate client responses, and keep track of any communication your team has with the client</p>
-                        <button>Learn More</button>
+                        <button class="btn btn-outline-dark"><strong>Learn More ></strong></button>
                     </figure>
                 </div>
                 <div class="col-3"></div>
             </div>  
         </div>
-        <div class="row">
-            <h2>Try Double Tap Today!</h2>
-            <h5>Let's Get Started</h5>
-            <div class="row">
-                <button class="btn">
-                    Get Started
-                </button>
-                <button class="btn">
-                    Chat With Us
-                </button>
+        <div class="row bg-primary text-white text-center">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <div class="row pt-4">
+                    <h2 class=>Try Double Tap Today!</h2>
+                </div>
+            <div class="row text-center">
+                <h6>Let's Get Started</h6>
             </div>
-            <ul>
-                <li>Free 14-day trial</li>
-                <li>Manage Customers in Minutes</li>
-                <li>Cancel at Anytime</li>
-            </ul>
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-success">
+                        Get Started
+                    </button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-light">
+                        Chat With Us
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">Free 14-day trial</div>
+                <div class="col-4">Manage Customers in Minutes</div>
+                <div class="col-4">Cancel at Anytime</div>
+            </div>
+        </div>
         </div>
     </div>
 </body>
