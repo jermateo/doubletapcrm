@@ -1,17 +1,191 @@
+.navbar {
+    display: flex;
+    left: 0;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.nav-item {
+    font-size: .6rem;
+}
+
+.bigmessage {
+    font-weight: 600;
+}
+
+.trialetc {
+    font-size: .6rem;
+    white-space: nowrap;
+}
+
+.separator {
+    background: none;
+}
+
+.trialetc .separator {
+    color: blue;
+    font-size: .4rem;
+}
+
+.separator {
+    font-size:xx-small;
+}
+
+.explore {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.explorestatement {
+    font-size: .6rem;
+    font-weight: 400;
+}
+
 .card {
+    
     border-radius: 25px;
+    height: 20rem;
 }
 
 .card-body {
     border-radius: 0px 25px 25px 0px;
-    height: 100%;
+    height: 20rem;
 }
 
 .cardguy {
     position: center;
 }
 
+.card-title {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.cardbigtext {
+    font-size: .6rem;
+    font-weight: 700;
+}
+
+.cardsmalltext {
+    font-size: .5rem;
+    line-height: 95%;
+    list-style-type: '-';
+}
+
+.cardsmalltext li {
+    margin-bottom: 1rem;
+}
+
+
+
 #signin {
     text-decoration: none;
     color: rgb(37, 42, 47)
 }
+
+.bluelemon {
+    background-color: blue;
+    border-radius: 25px 0px 25px 0px;
+    color: white;
+    font-size: .4rem;
+    font-weight: 700;
+    filter:
+    drop-shadow(0 2px 2px #555) /* spaces */
+    drop-shadow(0 6px 5px #777)
+    drop-shadow(0 12px 10px #999);
+}
+
+.whiteroundleftcorner {
+    background-color: white;
+    border-radius: 25px 0px 0px 0px;
+    font-size: .4rem;
+    font-weight: 700;
+    filter:
+    drop-shadow(0 2px 2px #555) /* spaces */
+    drop-shadow(0 6px 5px #777)
+    drop-shadow(0 12px 10px #999);
+}
+
+.bluecircle {
+    background-color: blue;
+    border-radius: 50px;
+    font-size: .4rem;
+    font-weight: 700;
+    color: white;
+    filter:
+    drop-shadow(0 2px 2px #555) /* spaces */
+    drop-shadow(0 6px 5px #777)
+    drop-shadow(0 12px 10px #999);
+}
+
+.whiteroundrightcorner {
+    background-color: white;
+    border-radius: 0px 25px 0px 0px;
+    font-size: .4rem;
+    font-weight: 700;
+    filter:
+    drop-shadow(0 2px 2px #555) /* spaces */
+    drop-shadow(0 6px 5px #777)
+    drop-shadow(0 12px 10px #999);
+}
+
+.bluebottomrightcorner {
+    background-color: blue;
+    border-radius: 0px 0px 25px 0px;
+    font-size: .4rem;
+    font-weight: 700;
+    color: white;
+    filter:
+    drop-shadow(0 2px 2px #555) /* spaces */
+    drop-shadow(0 6px 5px #777)
+    drop-shadow(0 12px 10px #999);
+}
+
+.bluebottomleftcorner {
+    background-color: blue;
+    border-radius: 0px 0px 0px 25px;
+    font-size: .4rem;
+    font-weight: 700;
+    color: white;
+    filter:
+    drop-shadow(0 2px 2px #555) /* spaces */
+    drop-shadow(0 6px 5px #777)
+    drop-shadow(0 12px 10px #999);
+}
+
+.whitecircle {
+    background-color: white;
+    border-radius: 50px;
+    font-size: .4rem;
+    font-weight: 700;
+    filter:
+    drop-shadow(0 2px 2px #555) /* spaces */
+    drop-shadow(0 6px 5px #777)
+    drop-shadow(0 12px 10px #999);
+}
+
+.bigicon {
+    height: 3rem;
+}
+
+.subscription {
+    font-size: .8rem
+}
+
+.col-5 .col-3 {
+    white-space: nowrap;
+}
+
+.bottomline {
+    font-size: .5rem;
+    white-space: nowrap;
+}
+
+.bottomline .separator{
+    font-size: .4rem;
+    color: white;
+}
+
